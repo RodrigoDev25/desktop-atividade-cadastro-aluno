@@ -2,7 +2,7 @@ let listaAlunos = []
 let submitVar = document.getElementById("form-cadastro")
 function cadastrarAluno(event) {
     event.preventDefault()
-    let inputNome = document.getElementById("nome").valueformProduto.addEventListener("submit", cadastrarProduto)
+    let inputNome = document.getElementById("nome").value
     let inputMatricula = document.getElementById("matricula").value
     let inputIdade = document.getElementById("idade").value
     let inputMae = document.getElementById("mae").value
@@ -18,6 +18,7 @@ function cadastrarAluno(event) {
     }
 
     listaAlunos.push(objetoAluno)
+
 
     console.log(listaAlunos)
 
